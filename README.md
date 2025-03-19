@@ -21,7 +21,7 @@ A simple web-based BMI (Body Mass Index) calculator built using JavaScript.
 
 
 ## Live Demo
-[Click here to try the BMI Calculator](#)  
+https://prabathunni.github.io/BMI-Checker/
 
 ## License
 This project is open-source and free to use.
