@@ -7,6 +7,9 @@ function calculateBmi(){
 
   const bmi = (weight / (height * height)).toFixed(2);
 
+  console.log(bmi);
+  
+
 
   if(bmi<18.5){
     output.innerHTML=`
@@ -32,7 +35,7 @@ function calculateBmi(){
     </div>
     `
   }
-  else if (bmi >= 25 && bmi < 29.9) {
+  else if (bmi >= 24.9 && bmi < 29.9) {
     output.innerHTML=`
     <div class="card text-center bg-light" style="width: 18rem;">
        <img src="./images/overweight.jpg" class="card-img-top" alt="...">
@@ -45,7 +48,7 @@ function calculateBmi(){
 
     `
   }
-  else if(bmi>30){
+  else if(bmi>=30){
     output.innerHTML=`
     <div class="card bg-light text-center" style="width: 18rem;">
         <img src="./images/obesee.jpg" class="card-img-top" alt="...">
